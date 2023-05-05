@@ -14,10 +14,10 @@
 
 }
 .sidebar nav{
+    list-style: none;
     padding: 72px;
 }
 .sidebar nav li{
-    list-style: none;
     font-size: 30px;
     padding: 33px 0;
 }
@@ -26,7 +26,7 @@
     color: rgb(12, 1, 1);
 }
 .main{
-    background-color: yellow;
+    background-color: white;
     width: 90vw;
 }
 .container{

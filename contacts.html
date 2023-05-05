@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tuhin Mallick - Aspiring electronics semiconductor engineer and a learner in web development too</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    Tuhin
+    <nav style="padding: 72px;">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Myself</a></li>
+        <li><a href="/contacts">Contacts</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/blogs">Blogs</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main">
+    <div class="hamburger">
+      <img class="src" src="ham.png" alt="" width="23">
+      <img class="cross" src="cross.png" alt="" width="23">
+    </div>
+    <div class="contactform">
+      <h1>contact me for work/general enquiries</h1>
+      <form id="contact-me-form" method="post">
+        <div class="mb-3">
+          <label for="client-name" class="form-label">Name</label>
+          <input type="text" class="form-control" name="client-name" id="client-name" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="client-email" class="form-label">Email address</label>
+          <input type="email" class="form-control" name="client-email" id="client-email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email id and password with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="client-enquiry" class="form-label">Enquiry</label>
+          <textarea type="text" class="form-control" name="client-enquiry" id="client-enquiry" aria-describedby="emailHelp"></textarea>
+        </div>
+        <div class="mb-3" id=" form-check">
+          <label class="form-check-label" for="client-willing-to-work">i want you to work on a project with me</label>
+          <input type="checkbox" class="form-check-input" name="client-willing-to-work" id="client-willing-to-work">
+        </div>
+        <button type="submit" class="btn btn-sm">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/js/contacts.js" defer></script>
+</body>
+
+</html>
